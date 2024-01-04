@@ -18,7 +18,7 @@ import rockType from "./rockType.svg";
 import steelType from "./steelType.svg";
 import waterType from "./waterType.svg";
 // Connect Icons
-import linkedIn from "./linkedin.svg";
+import linkedIn from "./linkedIn.svg";
 import github from "./github.svg";
 // Misc Icons
 import close from "./close.svg";
