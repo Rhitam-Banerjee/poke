@@ -1,12 +1,13 @@
 import { useState } from "react";
-import Header from "./Containers/Header";
-import PokeContext from "./HOC/PokeContext";
+import { Header, Details } from "./Containers";
+import PokeContext from "./Hooks/PokeContext";
 const App = () => {
   const [pokeDetailsMain, setPokeDetailsMain] = useState({});
   const value = { pokeDetailsMain, setPokeDetailsMain };
   return (
     <PokeContext.Provider value={value}>
-      <Header />;
+      <Header />
+      <Details />
     </PokeContext.Provider>
   );
 };

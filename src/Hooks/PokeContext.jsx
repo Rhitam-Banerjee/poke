@@ -8,7 +8,7 @@ const PokeContext = createContext({
   defence: "",
   specialAttack: "",
   specialDefence: "",
-  hieght: "",
+  height: "",
   weight: "",
   speed: "",
   types: [],

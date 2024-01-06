@@ -2,5 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background: #222;
+  background: #182f7a;
+}
+.bug {
+  background-color: theme(colors[bug]);
+}
+.dark {
+  background-color: theme(colors[dark]);
+}
+.dragon {
+  background-color: theme(colors[dragon]);
+}
+.electric {
+  background-color: theme(colors[electric]);
+}
+.fairy {
+  background-color: theme(colors[fairy]);
+}
+.fighting {
+  background-color: theme(colors[fighting]);
+}
+.fire {
+  background-color: theme(colors[fire]);
+}
+.flying {
+  background-color: theme(colors[flying]);
+}
+.ghost {
+  background-color: theme(colors[ghost]);
+}
+.grass {
+  background-color: theme(colors[grass]);
+}
+.ground {
+  background-color: theme(colors[ground]);
+}
+.ice {
+  background-color: theme(colors[ice]);
+}
+.normal {
+  background-color: theme(colors[normal]);
+}
+.poison {
+  background-color: theme(colors[poison]);
+}
+.psychic {
+  background-color: theme(colors[psychic]);
+}
+.rock {
+  background-color: theme(colors[rock]);
+}
+.steel {
+  background-color: theme(colors[steel]);
+}
+.water {
+  background-color: theme(colors[water]);
 }

@@ -1,12 +1,11 @@
 import { LogoContainer, SearchInput } from "../Components";
-import SectionWrapper from "../HOC/SectionWrapper";
 
 const Header = () => {
   return (
-    <SectionWrapper>
+    <section className="px-8 py-2 flex flex-col justify-center items-center">
       <LogoContainer />
       <SearchInput />
-    </SectionWrapper>
+    </section>
   );
 };
 
