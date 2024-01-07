@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background: #182f7a;
+  background: rgb(6, 11, 40);
 }
 .bug {
   background-color: theme(colors[bug]);

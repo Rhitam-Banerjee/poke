@@ -6,8 +6,10 @@ const App = () => {
   const value = { pokeDetailsMain, setPokeDetailsMain };
   return (
     <PokeContext.Provider value={value}>
-      <Header />
-      <Details />
+      <div className="max-w-7xl mx-auto">
+        <Header />
+        <Details />
+      </div>
     </PokeContext.Provider>
   );
 };

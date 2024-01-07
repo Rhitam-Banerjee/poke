@@ -1,22 +1,22 @@
 import bgPage from "./bgPokeball.svg";
-import bugType from "./bugType.svg";
-import darkType from "./darkType.svg";
-import dragonType from "./dragonType.svg";
-import electricType from "./electricType.svg";
-import fairyType from "./fairyType.svg";
-import fightingType from "./fightingType.svg";
-import fireType from "./fireType.svg";
-import flyingType from "./flyingType.svg";
-import ghostType from "./ghostType.svg";
-import grassType from "./grassType.svg";
-import groundType from "./groundType.svg";
-import iceType from "./iceType.svg";
-import normalType from "./normalType.svg";
-import poisonType from "./poisonType.svg";
-import psychicType from "./psychicType.svg";
-import rockType from "./rockType.svg";
-import steelType from "./steelType.svg";
-import waterType from "./waterType.svg";
+import bug from "./bugType.svg";
+import dark from "./darkType.svg";
+import dragon from "./dragonType.svg";
+import electric from "./electricType.svg";
+import fairy from "./fairyType.svg";
+import fighting from "./fightingType.svg";
+import fire from "./fireType.svg";
+import flying from "./flyingType.svg";
+import ghost from "./ghostType.svg";
+import grass from "./grassType.svg";
+import ground from "./groundType.svg";
+import ice from "./iceType.svg";
+import normal from "./normalType.svg";
+import poison from "./poisonType.svg";
+import psychic from "./psychicType.svg";
+import rock from "./rockType.svg";
+import steel from "./steelType.svg";
+import water from "./waterType.svg";
 // Connect Icons
 import linkedIn from "./linkedIn.svg";
 import github from "./github.svg";
@@ -30,24 +30,24 @@ import search from "./search.svg";
 import weight from "./weight.svg";
 export {
   bgPage,
-  bugType,
-  darkType,
-  dragonType,
-  electricType,
-  fairyType,
-  fightingType,
-  fireType,
-  flyingType,
-  ghostType,
-  grassType,
-  groundType,
-  iceType,
-  normalType,
-  poisonType,
-  psychicType,
-  rockType,
-  steelType,
-  waterType,
+  bug,
+  dark,
+  dragon,
+  electric,
+  fairy,
+  fighting,
+  fire,
+  flying,
+  ghost,
+  grass,
+  ground,
+  ice,
+  normal,
+  poison,
+  psychic,
+  rock,
+  steel,
+  water,
   close,
   height,
   logo,

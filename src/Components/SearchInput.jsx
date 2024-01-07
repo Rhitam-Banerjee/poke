@@ -59,7 +59,9 @@ const SearchInput = () => {
         value={pokeName}
         onChange={(e) => setPokeName(e.target.value.toLowerCase())}
       />
-      <button type="submit">Get Info</button>
+      <button type="submit" className="text-white">
+        Get Info
+      </button>
     </form>
   );
 };

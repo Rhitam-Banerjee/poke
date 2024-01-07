@@ -1,5 +1,12 @@
+import { useContext } from "react";
+import PokeContext from "../Hooks/PokeContext";
 const PokeStats = () => {
-  return <div>PokeStats</div>;
+  const { pokeDetailsMain } = useContext(PokeContext);
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
 };
 
 export default PokeStats;
