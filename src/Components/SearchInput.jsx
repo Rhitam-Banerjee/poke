@@ -29,14 +29,14 @@ const SearchInput = () => {
       setPokeDetails({
         name: name,
         image: sprites.other["official-artwork"].front_default,
-        hp: stats[0],
-        attack: stats[1],
-        defence: stats[2],
-        specialAttack: stats[3],
-        specialDefence: stats[4],
+        hp: stats[0].base_stat,
+        attack: stats[1].base_stat,
+        defence: stats[2].base_stat,
+        specialAttack: stats[3].base_stat,
+        specialDefence: stats[4].base_stat,
         height: height,
         weight: weight,
-        speed: stats[5],
+        speed: stats[5].base_stat,
         pokeTypes: [...typePoke],
       });
       setPokeName("");
