@@ -3,6 +3,9 @@
 @tailwind utilities;
 body {
   background: rgb(6, 11, 40);
+  background-image: url("./assets/bgPokeball.svg");
+  background-repeat: no-repeat;
+  background-position: 50% -50%;
 }
 .bug {
   background-color: theme(colors[bug]);

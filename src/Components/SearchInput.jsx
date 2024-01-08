@@ -53,14 +53,17 @@ const SearchInput = () => {
       className="mt-[30px] flex justify-center items-center sm:flex-col w-1/2 max-w-[600px] sm:w-full sm:max-w-[300px]"
     >
       <input
-        className="flex-1"
+        className="flex-1 w-full text-center text-white px-4 py-2 outline-none rounded-xl shadow-custom bg-transparent transition-all focus:bg-transparent focus:rounded-none focus:border-b-2 focus:border-red-500 focus:shadow-none placeholder:text-gray-300"
         type="text"
         placeholder="Enter Pokemon Name"
         value={pokeName}
         onChange={(e) => setPokeName(e.target.value.toLowerCase())}
       />
-      <button type="submit" className="text-white">
-        Get Info
+      <button
+        type="submit"
+        className="text-red-500 font-black px-4 py-1 sm:mt-4 sm:ml-0 ml-8 bg-white rounded-xl"
+      >
+        Search
       </button>
     </form>
   );

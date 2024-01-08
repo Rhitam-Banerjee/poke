@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#060B28",
+        primary: "rgb(6, 11, 40)",
+        white_transp: "rgba(255,255,255,0.2)",
         bug: "#7BCF00",
         dark: "#5A566A",
         dragon: "#0076FF",
@@ -24,11 +25,34 @@ export default {
         steel: "#23A1BD",
         water: "#14A8FF",
       },
+      boxShadow: {
+        custom: "0 0 10px rgba(255,255,255,0.2)",
+      },
       screens: {
-        xs: { max: "450px" },
         sm: { max: "640px" },
+        md: { max: "1020px" },
       },
     },
   },
+  safelist: [
+    "bg-[#7BCF00]",
+    "bg-[#5A566A]",
+    "bg-[#0076FF]",
+    "bg-[#FFDE00]",
+    "bg-[#FF76FF]",
+    "bg-[#FF215B]",
+    "bg-[#FF9900]",
+    "bg-[#89BDFF]",
+    "bg-[#4E6AFF]",
+    "bg-[#1CD80E]",
+    "bg-[#FF6B0D]",
+    "bg-[#2EE4C6]",
+    "bg-[#9FA39D]",
+    "bg-[#F149FF]",
+    "bg-[#FF6C64]",
+    "bg-[#D8BC5A]",
+    "bg-[#23A1BD]",
+    "bg-[#14A8FF]",
+  ],
   plugins: [],
 };
