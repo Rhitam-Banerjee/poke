@@ -3,7 +3,7 @@ const Details = () => {
   return (
     <>
       <section
-        className={`px-8 py-2 sm:px-2 sm:py-4 flex flex-row md:flex-col justify-between items-center`}
+        className={`px-8 py-2 sm:px-2 sm:pb-2 sm:pt-8 flex flex-row md:flex-col justify-between items-center`}
       >
         <PokeImage />
         <PokeStats />
